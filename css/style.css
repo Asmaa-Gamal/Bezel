@@ -1,0 +1,387 @@
+
+
+
+
+/*start navbar*/
+
+* 
+{
+	
+}
+::selection{
+	background-color: #000;
+	color: #fff;
+}
+
+
+.navbar-brand img
+{
+	height: 40px;
+}
+.test
+{
+	color: #00c3da;
+}
+.home 
+{
+	position:relative;
+	
+}
+.navbar
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
+	
+}
+.carousel-caption h1
+{
+	font-size: 100px;
+	font-weight: 700;
+}
+.clients .col-md-4
+{
+	margin-bottom: 80px;
+}
+.clients
+{
+	height: 90vh;
+}
+.clients img
+{
+	width: 50%;
+}
+
+.btn-w
+{
+	border: 1px solid #eee;
+	transition: all 1s;
+}
+.btn-w:hover
+{
+	background-color: #000;
+	color: #fff;
+}
+.tab-content .active
+{
+	display:block;
+	
+}
+
+.nav-pills a
+{
+	text-decoration: none;
+	color: #000;
+}
+.nav-pills li a:focus
+{
+	background-color: #000;
+	color: #fff;
+	padding: 15px;
+}
+.carousel-caption
+{
+	margin-bottom: 300px!important;
+}
+/*start section team*/
+.team-img
+{
+	position: relative;
+	color: #fff;
+	
+}
+.team-des
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+}
+.team-des p
+{
+	font-size: 12px;
+}
+.team-info h4
+{
+	font-size: 13px;
+	margin-top: 0;
+}
+.team-social li
+{
+	display:inline;
+	margin: 5px;
+	
+}
+.team-info
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*display:none;*/
+	opacity: 0;
+	background-color: rgba(0, 195, 218, 0.9);
+	transition: 1s;
+}
+.team-info:hover
+{
+	/*display: block;*/
+	opacity: 1;
+}
+/*start section service*/
+#service
+{
+	background-image: url(../img/bg-image-26.jpg);
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.service-s 
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);
+}
+/*end section service*/
+
+.button-group button
+{
+	background: transparent;
+    border:none;
+	padding: 10px 20px;
+}
+.button-group button:focus
+{
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+.grid-item
+{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	
+}
+
+.grid-item .overlay
+{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	right: 30px;
+	width: 80%;
+	margin-left: 20px;
+	background-color: #fff;
+	/*display: none;*/
+	opacity: 0;
+	transition:all 1s;
+}
+.grid-img
+{
+	display: inline-block;
+	overflow: hidden;
+}
+.grid-item:hover .overlay
+{
+	/*display: block;*/
+	opacity: 1;
+}
+.grid-item img
+{
+	transition: transform 1s;
+	
+}
+.grid-item:hover img
+{
+	transform: scale(1.2,1.2);
+}
+#prices
+{
+	background-color: #eee;
+}
+.price
+{
+	border-bottom: 1px solid #eee;
+}
+.price span
+{
+	font-size: 18px;
+	font-weight: 400;
+	vertical-align: top;
+}
+.price h2
+{
+	font-size: 55px;
+	font-weight: 500;
+	
+}
+#prices .price-info
+{
+	background-color: #fff;
+}
+.price-s
+{
+	color: #00c3da;
+	padding-bottom: 50px!important;
+}
+.clients
+{
+	margin-top: 50px;
+	height: 100vh;
+}
+.clients h4
+{
+	font-size: 16px;
+	opacity: .8;
+}
+.clients img
+{
+	opacity: .7;
+	cursor: pointer;
+}
+.clients img:hover{
+	opacity: 1;
+}
+#customers
+{
+	background-color: #eee;
+
+}
+owl-content
+{
+width: 750px;
+}
+.owl-content img
+{
+	
+}
+
+.owl-team img
+{
+	z-index:9999;
+}
+
+
+.contact label
+{
+	display: block;
+}
+.form-control
+{
+	height: 50px;
+	padding: 0px 15px;
+	border: 2px solid #eee;
+	box-shadow: none;
+}
+.form-control:focus
+{
+	border-color:#000;
+}
+textarea.form-control
+{
+	resize: none;
+	min-height: 110px;
+}
+.footer
+{
+	background-image: url(../img/dotted-map.png);
+	background-size: cover;
+	/*box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.02);*/
+	background-attachment: fixed;
+	/*position: fixed;*/
+	
+	
+}
+.footer h4
+{
+	font-size: 12px;
+}
+.listContact a
+{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+.listContact a:hover
+{
+	color: #00c3da;
+}
+.tagCloud a
+{
+	display: block;
+	float:left;
+	border: 1px solid #858585;
+	padding: 8px 10px;
+	margin: 0 15px 15px 0;
+	font-size: 16px;
+	
+	text-decoration: none;
+	color: #000;
+	
+}
+.tagCloud a:hover
+{
+	background-color:#00c3da;
+	border: #00c3da;
+	
+}
+
+.socialFooter li
+{
+display: inline-block;
+	margin: 20px;
+}
+.socialFooter li a{
+	color:#929292;
+	width: 40px;
+	font-size: 20px;
+}
+.socialFooter li a:hover
+{
+	color: #00c3da;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+	
+.owl-team 
+{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+	.clients
+	{
+		margin-top: 20px;
+	}
+
+	
+}
