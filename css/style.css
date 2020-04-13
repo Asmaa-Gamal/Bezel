@@ -1,7 +1,61 @@
+body
+{
+	color: #787878;
+}
+/*.img-bg
+{
+	position: relative;
+}*/
 
+.img-bg
+{
+	background-image: url(../img/bg-image-30.jpg);
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin-right: 0!important;
+	
 
+}
 
+.about .row
+{
+	
+	position: relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+ .tasks .nav-item{
+	
+	background-color: #222;
+	color: #fff;
+	border: none;
+	 overflow:hidden;
+	 
+}
 
+.tasks  .active
+{
+	background-color: #f5f5f5;
+	border: none;
+}
+.nav-tabs ,.nav-tabs .nav-link{
+  border:none
+	  
+}
+.nav-item a{
+	color: #fff;
+}
+.nav-item:hover
+{
+	background-color: #00c3da;
+	
+}
 /*start navbar*/
 
 * 
@@ -236,7 +290,7 @@
 .clients
 {
 	margin-top: 50px;
-	height: 100vh;
+	
 }
 .clients h4
 {
@@ -256,18 +310,13 @@
 	background-color: #eee;
 
 }
-owl-content
-{
-width: 750px;
-}
-.owl-content img
-{
-	
-}
 
-.owl-team img
+.owl-content img
+
 {
-	z-index:9999;
+	text-align: center;
+	width: 100px!important;
+	
 }
 
 
@@ -293,22 +342,33 @@ textarea.form-control
 }
 .footer
 {
-	background-image: url(../img/dotted-map.png);
-	background-size: cover;
+	
+	/*background-size: cover;*/
 	/*box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.02);*/
-	background-attachment: fixed;
+	position: relative;
 	/*position: fixed;*/
-	
-	
+}
+.footer:before
+{
+	content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+	background-image: url(../img/dotted-map.png);
+	background-size: contain;
+    opacity: .8;
 }
 .footer h4
 {
 	font-size: 12px;
+	color: #000;
 }
 .listContact a
 {
 	text-decoration: none;
-	color: #000;
+	color:#787878;
 	font-size: 14px;
 }
 .listContact a:hover
@@ -325,7 +385,7 @@ textarea.form-control
 	font-size: 16px;
 	
 	text-decoration: none;
-	color: #000;
+	color: #787878;
 	
 }
 .tagCloud a:hover
@@ -352,7 +412,11 @@ display: inline-block;
 
 
 
-
+.contact .row
+{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee; 
+}
 
 
 
@@ -368,7 +432,12 @@ display: inline-block;
 
 @media(max-width:576px)
 {
-	
+
+.img-bg
+	{
+		min-height: 400px;
+		 margin: -110px 0 60px;
+	}	
 .owl-team 
 {
 	width: 100px;
@@ -382,6 +451,25 @@ display: inline-block;
 	{
 		margin-top: 20px;
 	}
-
+.clients
+	{
+		height: 100%;
+		
+	}
+	.clients img
+	{
+		width: 100%;
+		align-items:  center;
+	}
+	
+}
+@media(max-width:767px)
+{
+	.img-bg
+	{
+		min-height: 400px;
+		    margin: -110px 0 60px;
+	}
+	
 	
 }
